@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-500">
+    <h1 class="text-red-500">Hola mundo, probando Tailwind</h1>
+
+    <div class="bg-yellow-400">
+        <h2 class="text-blue-200">Brandon Plata</h2>
+    </div>
+    <div class="container bg-pink-500">
+        <p class="font-sans">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Accusantium commodi ipsum doloribus quaerat autem repudiandae harum fugit, 
+            error quos quae rem vero. At magni id, eos expedita consequatur dolorum. Nesciunt?</p>
+    </div>
+    <!--********-->
+    <!-- Circulos -->
+<div class="grid grid-cols-3 gap-8 items-center justify-items-center">
+
+    <!-- Circulo 1 -->
+    <div class="w-40 h-40 rounded-full overflow-hidden">
+        <img 
+            src="img/img1.jpg" 
+            alt="Imagen con efecto blur"
+            class="w-full h-full object-cover blur-sm"
+        >
+    </div>
+
+    <!-- Circulo 2 -->
+    <div class="w-40 h-40 rounded-full overflow-hidden">
+        <img 
+            src="img/img1.jpg" 
+            alt="Imagen con efecto de opacidad"
+            class="w-full h-full object-cover opacity-50"
+        >
+    </div>
+
+    <!-- Circulo 3 -->
+    <div class="w-40 h-40 rounded-full overflow-hidden">
+        <img 
+            src="img/img1.jpg" 
+            alt="Imagen en escala de grises"
+            class="w-full h-full object-cover grayscale"
+        >
+    </div>
+
+</div>
+
+
+<!-- Texto debajo -->
+<div class="grid grid-cols-3 text-center mt-8 mb-4">
+
+    <div>
+        <h2 class="text-3xl font-semibold text-gray-800">
+            intensidad
+        </h2>
+    </div>
+
+    <div>
+        <h2 class="text-3xl font-semibold text-gray-800">
+            opacidad
+        </h2>
+    </div>
+
+    <div>
+        <h2 class="text-3xl font-semibold text-gray-800">
+            fibre
+        </h2>
+    </div>
+
+</div>
+
+
+<!-- Rectangulos -->
+<div class="grid grid-cols-3 gap-8 justify-items-center">
+
+    <!-- Rectangulo 1 -->
+    <div class="w-40 h-36 overflow-hidden">
+        <img 
+            src="img/img1.jpg" 
+            alt="Imagen con intensidad"
+            class="w-full h-full object-cover saturate-150"
+        >
+    </div>
+
+    <!-- Rectangulo 2 -->
+    <div class="w-40 h-36 overflow-hidden">
+        <img 
+            src="img/img1.jpg" 
+            alt="Imagen con brillo"
+            class="w-full h-full object-cover brightness-75"
+        >
+    </div>
+
+    <!-- Rectangulo 3 -->
+    <div class="w-40 h-36 overflow-hidden">
+        <img 
+            src="img/img1.jpg" 
+            alt="Imagen con contraste"
+            class="w-full h-full object-cover contrast-150"
+        >
+    </div>
+
+</div>
+
+
+<!-- PIE DE PÁGINA -->
+<div class="border-8 border-gray-700 bg-yellow-300 mt-4 py-4">
+
+    <p class="text-center text-3xl font-medium text-gray-700">
+        diseñado por: Brandon Plata Marca
+    </p>
+
+</div>
+
+
+</body>
+</html>
+
